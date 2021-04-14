@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+
+.col {
+    background-color: aquamarine;
+}
+
+#pic1 {
+    position: relative;
+    z-index: 0;
+}
+
+.txt1 {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    color: white;
+    font-size: 25px;
+    background-color:#36be88 ;
+    z-index: 1;
+
+}
+.txt2{
+    color: white;
+
+}
+
+.mid{
+    background-color:#f6f6f6 ;
+    height: 1200px;
+}
+
+.dark{
+    background-color: #232323;
+    
+}
+
+footer{
+    background-color: #121212;
+    height: 100px;
+
+}
+.copyright{
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+  .txt1 {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .txt1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .txt1 {
+    font-size: 30px;
+  }
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row text-center align-items-center">
+            <div class="col-xl-4 col-md-6 col-sm-6 display-4">
+                My Website
+            </div>
+            <div class="col-md-6 col-sm-6 d-xl-none">
+                Menu
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                <strong>Home</strong>
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Portfolio
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Staff
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Features
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Blog
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Contact
+            </div>
+            <div class="col-xl-1 d-xl-inline d-md-none d-sm-none d-none">
+                Download
+            </div>
+        </div>
+
+  <div class="container-fluid">   <!--slika i body--> 
+
+<div class="row" id="pic1">
+    <div class="container-fluid col-12 mt-4 ">
+<img class="w-100" src="imgs/hero.jpg" alt="hero picture">
+    </div> 
+<div class="txt1 col-xl-4 col-md-8 text-center w-75">We strive to make all of our creations exquisite.</div>
+</div>      
+
+
+    <div class="container-fluid">
+
+    <div class="row pt-5 h4 text-center" >
+        <div class="col-xl-3 ">
+            <img src="imgs/icon-1.png" alt="icon-1">
+            <div class="pt-4"><strong>Purpose</strong></div>
+            <div class="pt-4 h6">Vestibulum sapien nisi, suscipit vitae euismod vitae, imperdiet eget est. Etiam tincidunt empus.</div>
+        </div>
+        <div class="col-xl-3 ">
+            <img src="imgs/icon-2.png" alt="icon-2">
+            <div class="pt-4"><strong>Quality</strong></div>
+            <div class="pt-4 h6">Nam commodo risus pharetra magna egestas, nec iaculis augue loboritis. Proin eleifend enim quis.</div>
+        </div>
+        <div class="col-xl-3 ">
+            <img src="imgs/icon-3.png" alt="icon-3">
+            <div class="pt-4"><strong>Function</strong></div>
+            <div class="pt-4 h6">Aenean et tellus id nisi vehicula fringilla. In condimentum dui eu turpis mollis turpis suscipit.</div>
+        </div>
+        <div class="col-xl-3 ">
+            <img src="imgs/icon-4.png" alt="icon-4">
+            <div class="pt-4"><strong>Elegant</strong></div>
+            <div class="pt-4 h6">Mauris accumsan magna in placerat lacinia. Proin sit amet neque vitae nunc pulvinar varius.</div>
+        </div>
+    </div>
+
+
+    <div class="h4 pt-5"><strong>RECENT WORK</strong></div>
+    <div class="w-100"><hr></div>
+
+    <div class="row pt-5 h4 " >
+        <div class="col-xl-3 col-md-6 ">
+            <img class="w-100" src="imgs/bike-400x340.jpg" alt="bike">
+            <div class="pt-4"><strong>Green Bike</strong></div>
+            <div class="pt-4 h6">Beautifull, Travel</div>
+        </div>
+        <div class="col-xl-3 col-md-6 ">
+            <img class="w-100" src="imgs/surf-400x340.jpg" alt="surf">
+            <div class="pt-4"><strong>Salt Of The Earth</strong></div>
+            <div class="pt-4 h6">Beautifull, Travel</div>
+        </div>
+        <div class="col-xl-3 col-md-6 ">
+            <img class="w-100" src="imgs/hills-400x340.jpg" alt="hills">
+            <div class="pt-4"><strong>Mountain High</strong></div>
+            <div class="pt-4 h6">Travel</div>
+        </div>
+        <div class="col-xl-3 col-md-6 ">
+            <img class="w-100" src="imgs/path-400x340.jpg" alt="path">
+            <div class="pt-4"><strong>When A Tree Falls</strong></div>
+            <div class="pt-4 h6">Beautifull</div>
+        </div>
+    </div>
+
+
+    <div class="h4 pt-5"><strong>FROM THE BLOG</strong></div>
+    <div class="w-100"><hr></div>
+
+    <div class="row pt-5 h4 justify-content-around pb-5 mb-4" >
+        <div class="col-xl-4 col-md-12 ">
+            <img class="w-100" src="imgs/cow-640x340.jpg" alt="cow">
+            <div class="pt-4"><strong>How Now</strong></div>
+            <div class="pt-4 h6">
+                <p>Posted on October 28, 2020</p>
+                <p>Proin et ligula laoreet, vestibulum orci nec, eleifend parus. Quisque ullamcorper sem at ipsum elementum laoreet. Integer egestas...</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-12 ">
+            <img class="w-100" src="imgs/sunrise-640x340.jpg" alt="sunrise">
+            <div class="pt-4"><strong>Adrift by Simon Christen</strong></div>
+            <div class="pt-4 h6">
+                <p>Posted on September 29, 2020</p>
+                <p>Morbi vulputate egestas sem, eu cursus ligula ullamcorper non. Curabitur tristique velit eu mauris venenatis egestas. Phasellus bidendum...</p>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-12 ">
+            <img class="w-100" src="imgs/grass-640x340.jpg" alt="grass">
+            <div class="pt-4"><strong>A Walk In The Park</strong></div>
+            <div class="pt-4 h6">
+                <p>Posted on August 10, 2020</p>
+                <p>Proin elementum pharetra mauris sed semper. Cras lorem arcu, vulputate ut malesuada ut, tincidunt tempor lectus. Etiam adipiscing...</p>
+            </div>
+        </div>
+    </div>
+
+<div class="dark container-fluid justify-content-center">
+
+    <div class="txt2 row w-100 mx-auto py-5">
+        <div class="col-xl-4 col-md-12">
+            <p class="h3">My Website</p>
+            <p>Quisque id dolor leo. Vivamus tincidunt in diam ac condimentum. Quisque rutrum dolor dolor, non tincidunt tellus sollicitudin vitae. 
+                Mauris a dolor ut nibh volutpat aliquam. Sed dictum magna eu massa accumsan, 
+                sit amet viverra ligula gravida. Nam vehicula ut leo aliquet sodales.</p>
+        </div>
+        <div class="col-xl-4 col-md-12">
+<table class="txt2 table">
+    
+    <thead>
+        <tr>
+            <th class="h4" scope="col">Recent Post</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>How Now</td>
+        </tr>
+        <tr>
+            <td>Adrift by Simon Christen</td>
+        </tr>
+        <tr>
+            <td>A Walk In The Park</td>
+        </tr>
+        <tr>
+            <td>Time To Think</td>
+        </tr>
+        <tr>
+            <td>Field Of Dreams</td>
+        </tr>
+    </tbody>
+
+</table>
+        </div>
+        <div class="col-xl-4 col-md-12">
+
+            <table class="txt2 table">
+    
+                <thead>
+                    <tr>
+                        <th class="h4" scope="col">Recent Work</th>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr>
+                        <td>Beautifull</td>
+                    </tr>
+                    <tr>
+                        <td>Travel</td>
+                    </tr>
+                    <tr>
+                        <td>Surreal</td>
+                    </tr>
+                    <tr>
+                        <td>Thoughts</td>
+                    </tr>
+                    <tr>
+                        <td>Unique</td>
+                    </tr>
+                </tbody>
+            
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+<footer class="copyright container-fluid h4 d-flex align-items-center justify-content-center">
+    &copy 2020 ITAcademy
+</footer>
+
+
+</div>
+
+
+
+
+
+
+</div>          <!--slika i body   do ovog dela --> 
+
+
+
+</div>
+
+
+
+
+<script src="js/jquery-3.6.0.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
